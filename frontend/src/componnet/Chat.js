@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import io from "socket.io-client";
 
-const socket = io("https://noodapp.vercel.app");
+const socket = io("https://videoacll.hamararemedies.com");
 
 const Chat = ({ userToChatWith }) => {
   const [message, setMessage] = useState("");

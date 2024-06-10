@@ -9,7 +9,7 @@ import Peer from "simple-peer";
 import io from "socket.io-client";
 import "./App.css";
 
-const socket = io.connect("https://noodapp.vercel.app");
+const socket = io.connect("https://videoacll.hamararemedies.com");
 
 function App() {
   const [me, setMe] = useState("");
